@@ -1,0 +1,258 @@
+
+#home-carousel{
+    width:100%;
+    height:335px;
+    border-radius: 6px;
+    --swiper-theme-color: #ff6600;/* 设置Swiper风格 */
+    --swiper-navigation-color: #fff;/* 单独设置按钮颜色 */
+    --swiper-navigation-size: 24px;/* 设置按钮大小 */
+}
+#home-carousel img{
+    width: 100%;
+    height: 100%;
+}
+#home-carousel .swiper-pagination {
+    text-align: right;
+    margin-left: -24px;
+}
+#home-carousel .swiper-pagination .swiper-pagination-bullet{
+    width: 30px;
+    height: 4px;
+    border-radius:2px;
+    background: #fff;
+    opacity: .5;
+}
+#home-carousel .swiper-pagination .swiper-pagination-bullet-active{
+    opacity: .8;
+}
+
+.title_layer{
+    position: absolute;
+    z-index: 2;
+    bottom:0;
+    width: 100%;
+    background: #000;
+    background: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+    background: -moz-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);; /*FireFox*/
+    background: -o-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);  /* Opear */
+    background: -ms-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)); /*IE10及IE10+*/
+}
+#home-carousel .swiper-slide .title{  
+    height: 90px;
+    line-height: 95px;
+    text-indent: 10px;    
+}
+#home-carousel .swiper-slide .title strong{
+    color: #fff;
+    font-size: 20px;
+}
+#home-carousel .button{
+    background-color:rgba(0,0,0,0.3);
+    top:46%;
+    padding: 12px;
+}
+#home-carousel .swiper-button-prev{
+    left:0;
+}
+#home-carousel .swiper-button-next{
+    right:0;
+}
+
+.home-pure-space{
+    padding: 8px;
+}
+
+
+#home-recommend{
+    height: 335px;
+}
+
+#home-recommend .item {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 159px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+#home-recommend .item img{
+    width: 100%;
+    height: 100%;
+    transition: all .2s;
+    -moz-transition: all .2s; /* Firefox 4 */
+    -webkit-transition: all .2s; /* Safari 和 Chrome */
+    -o-transition: all .2s; /* Opera */
+}
+#home-recommend .top{
+    margin-bottom: 16px;
+}
+#home-recommend .item .title{
+    height:80px;
+    line-height: 115px;
+    color: #fff;
+    font-size: 15px;
+    opacity: .8;
+}
+#home-recommend .item .title strong{
+    display: block;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    font-weight: normal;
+}
+#home-recommend .item:hover .title{
+    background: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.7));
+    background: -moz-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);; /*FireFox*/
+    background: -o-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);  /* Opear */
+    background: -ms-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.7)); /*IE10及IE10+*/
+}
+#home-recommend .item:hover img{
+    width: 110%;
+    height: 110%;
+    margin: -5% 0 0 -5%;
+}
+
+
+.list-item{
+    width: 100%;
+    height: auto;
+}
+.list-item .sub-title{
+    height: 40px;
+    line-height:40px;
+}
+.list-item .sub-title i{
+    float: left;
+    width: 5px;
+    height: 15px;
+    background: #df332f;
+    border-radius: 4px;
+    margin: 12px 8px 0 10px;
+}
+.list-item .sub-title h2{
+    font-size: 20px;
+    color: #3a4856;
+    float: left;
+    font-weight: normal;
+}
+.list-item .sub-title a{
+    float:right;
+    margin-right: 9px;
+}
+.list-item .sub-content{
+    padding:0 20px;
+    height:340px;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.list-item .sub-content .top{
+    height: 50px;
+    line-height: 60px;
+    border-bottom: 2px #eaeef5 solid;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.list-item .sub-content .top time{
+    color: #df332f;
+}
+.list-item .sub-content .thumb{
+    overflow: hidden;
+}
+.list-item .sub-content .thumb a{
+    display: block;
+    width: 100%;
+    height: 75px;
+    border-radius: 4px;
+    margin:6px 0 10px 0;
+    overflow: hidden;
+}
+
+.list-item .sub-content .thumb a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all .2s;
+    -moz-transition: all .2s; /* Firefox 4 */
+    -webkit-transition: all .2s; /* Safari 和 Chrome */
+    -o-transition: all .2s; /* Opera */
+}
+.list-item .sub-content .thumb a:hover img{
+    width: 106%;
+    height: 106%;
+    margin: -3% 0 0 -3%;
+}
+.list-item .sub-content .thumb a.no_scale:hover img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.list-item .sub-content .list{
+    height: 256px;
+    overflow: hidden;
+}
+.list-item .sub-content .list ul li{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+}
+.list-item .sub-content .list ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.list-item .sub-content time{
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 8px;
+    color:#cbcbcd
+}
+
+.list-item .sub-content .empty{
+    width: 100%;
+    text-align: center;
+}
+
+
+.home-link{
+    margin: 20px 0;
+    overflow: hidden;
+}
+.home-link .title{
+    font-size: 22px;
+}
+.home-link ul{
+    margin-top:10px;
+}
+.home-link ul li {
+    float: left;
+    margin-right:10px;
+}
+.home-link ul li a{
+    color: #666666;
+    font-size: 16px;
+}
+.home-link ul li a:hover{
+    color: #000;
+}
+
+
+
+
+
+
+@media (max-width:576px) {
+    #home-recommend{
+        height: 100%;
+    }
+    #home-recommend .item,
+    #home-carousel{
+        height:215px;
+    }
+    .list-item .sub-content{
+        padding:0 14px;
+    }
+}

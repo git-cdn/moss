@@ -1,0 +1,78 @@
+.topic-main{
+    background: #fff;
+    height:auto;
+    padding:10px 25px;
+    border-radius: 6px;
+    box-shadow: 0 10px 14px 0 #e8ebf2;
+    overflow: hidden;
+    margin-bottom:20px;
+}
+
+.topic-main>.title{
+    color: #8da0bc;
+    margin: 20px 0;
+    line-height: 40px;
+    text-align: right;
+}
+
+.topic-main>.title h1{
+    font-size: 24px;
+    color: #333;
+    float: left;
+}
+.topic-main>.title .iconfont{
+    font-size: 13px;
+    margin-right: 3px;
+}
+
+.topic-main>.title time{
+    margin-right: 6px;
+}
+.about {
+    position: relative;
+    padding:40px 30px;
+    background-color: #f8f8fa;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    color: #afbccf;
+}
+.about .iconfont{
+    font-size: 22px;
+    position: absolute;
+    left:16px;
+    top:10px;
+}
+.about .iconfont.r{
+    top:auto;
+    left:auto;
+    bottom:10px;
+    right:16px;
+
+}
+.about li a{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    color: #667894;
+}
+.about li a:hover{
+    color: #df332f;
+}
+.about li a h5{
+    font-size: 16px;
+    font-weight: normal;
+}
+.about li a m{
+    color:#e13430
+}
+
+
+@media (max-width:576px) {
+    .topic-main>.title h1{
+        width: 100%;
+        display: block;
+        float: unset;
+        text-align: center;
+    }
+}
