@@ -73,8 +73,11 @@ article .info time{
 article .content{
     margin: 20px 0;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 32px;
     color: #262626;
+}
+article .content>p{
+    margin: 7px 0;
 }
 article .content .introduction{
     padding:40px 30px;
