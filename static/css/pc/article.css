@@ -8,6 +8,7 @@ article{
     box-shadow: 0 10px 14px 0 #e8ebf2;
     overflow: hidden;
     margin-bottom:20px;
+    position: relative;
 }
 article .breadcrumb{
     height:16px;
@@ -75,6 +76,7 @@ article .content{
     font-size: 16px;
     line-height: 32px;
     color: #262626;
+    overflow: hidden;
 }
 article .content>p{
     margin: 7px 0;
@@ -116,7 +118,6 @@ article .content img{
     font-size: 16px;
     height: 20px;
     line-height: 20px;
-    font-weight: bold;
     overflow: hidden;
 }
 .topicList li a m{
@@ -133,7 +134,6 @@ article .content img{
 .relevant h3 .iconfont{
     margin-right: 5px;
 }
-
 
 
 @media (max-width:576px) {
