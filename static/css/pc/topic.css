@@ -1,16 +1,17 @@
 .topic-main{
     background: #fff;
     height:auto;
-    padding:10px 25px;
+    padding:10px 25px 50px 25px;
     border-radius: 6px;
     box-shadow: 0 10px 14px 0 #e8ebf2;
     overflow: hidden;
     margin-bottom:20px;
+    position: relative;
 }
 
 .topic-main>.title{
     color: #8da0bc;
-    margin: 20px 0;
+    margin: 30px 0;
     line-height: 40px;
     text-align: right;
 }
@@ -28,40 +29,69 @@
 .topic-main>.title time{
     margin-right: 6px;
 }
-.about {
-    position: relative;
-    padding:40px 30px;
-    background-color: #f8f8fa;
-    margin-bottom: 20px;
-    border-radius: 12px;
-    color: #afbccf;
-}
-.about .iconfont{
-    font-size: 22px;
-    position: absolute;
-    left:16px;
-    top:10px;
-}
-.about .iconfont.r{
-    top:auto;
-    left:auto;
-    bottom:10px;
-    right:16px;
 
+.topic-main>.content {
+    font-size: 15px;
+    color: #7589a6;
+    line-height: 26px;
+    overflow: hidden;
+}
+.topic-main>.content h2{
+    height: 20px;
+    line-height: 20px;
+    font-size: 17px;
+    margin: 40px 0 10px 0;
+    color: #495a74;
+    overflow: hidden;
+}
+.topic-main>.content h2 i{
+    float: left;
+    width: 4px;
+    height: 12px;
+    background: #df332f;
+    border-radius: 4px;
+    margin: 3px 7px 0 0;
+}
+
+.topic-main>.content img{
+    display: block;
+    margin: 10px auto;
+    max-width: 40%;
+    max-height: 300px;
+    border-radius: 6px;
+}
+
+.topic-main>.content a{
+    margin-left: 8px;
+
+}
+
+.about{
+    background: #fff;
+    height:auto;
+    padding:10px 25px;
+    border-radius: 6px;
+    box-shadow: 0 10px 14px 0 #e8ebf2;
+    overflow: hidden;
+    margin-bottom:20px;
+    position: relative;
+}
+.about h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.about h3 .iconfont{
+    margin-right: 5px;
+}
+.about ul{
+    margin-bottom: 20px;
 }
 .about li a{
     display: block;
+    font-size: 16px;
     height: 20px;
     line-height: 20px;
     overflow: hidden;
-    color: #667894;
-}
-.about li a:hover{
-    color: #df332f;
-}
-.about li a h5{
-    font-size: 16px;
-    font-weight: normal;
 }
 .about li a m{
     color:#e13430
@@ -74,5 +104,8 @@
         display: block;
         float: unset;
         text-align: center;
+    }
+    .about{
+        padding:8px 15px;
     }
 }
