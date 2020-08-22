@@ -329,12 +329,15 @@ aside>div{
         line-height: 50px;
         margin-bottom: 5px;
     }
+    header .logo img{
+        height:40px;
+    }
     .breadcrumb{
         margin:7px 0;
     }
     .article-item-list .item{
-        padding:0;
-        margin-bottom: 8px;
+        padding-bottom:4px;
+        margin:0 0 4px 0;
     }
     .article-item-list .item .img a{
         height: 47px;
