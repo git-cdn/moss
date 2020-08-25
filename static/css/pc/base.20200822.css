@@ -378,7 +378,7 @@ aside>div{
     background: -ms-linear-gradient(rgba(255,255,255,.3),rgba(255,255,255,1)); /*IE10及IE10+*/
 }
 #more::after{
-    content: "点击查看更多";
+    content: "点击展开更多";
 }
 #more .iconfont{
     margin-right: 5px;

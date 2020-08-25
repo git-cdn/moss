@@ -1,17 +1,17 @@
 
 
-function showMore(initial, inc, conID, moreID){
+function showMore(_initial=700, inc=700, conID, moreID){
     let content = document.getElementById(conID)
     let more = document.getElementById(moreID)
     let contentH = content.offsetHeight
-    if(contentH <= initial){
+    if(contentH <= _initial){
         more.style.display="none"
         return
     }else{
         more.style.display="block"
     }
-    content.style.maxHeight= initial + "px"
-    document.getElementById(moreID).onclick = function(e){
+    content.style.maxHeight= _initial + "px"
+    more.onclick = function(e){
         let c = document.getElementById(conID)
         let h = c.offsetHeight
         let nh = h + inc
